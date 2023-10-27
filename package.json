@@ -7,8 +7,8 @@
     "prepare": "husky install",
     "dev": "vite",
     "build": "tsc && vite build",
-    "prelint": "eslint \"{src,e2e}/**/*.tsx\" --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint": "prettier --write \"{src,e2e}/**/*.ts\"",
+    "prelint": "eslint \"{src,e2e}/**/*.{ts,tsx}\" --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "prettier --write \"{src,e2e}/**/*.{ts,tsx}\"",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
